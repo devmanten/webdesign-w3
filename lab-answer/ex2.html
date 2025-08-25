@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form>
+        <label for ="Full name">Full name:</label>
+        <input type = "text" id ="Full name" name ="Full name" placeholder="Enter your full name">
+
+        <label for ="Email">Email:</label>
+        <input type ="text" id = "Email" name = "Email" placeholder="example@email.com">
+
+        <label for ="Password">Password:</label>
+        <input type ="text" id = "Password" name="Password" placeholder="Enter your password">
+    
+        <label for = "Gender">Gender:</label>
+        <br>
+        <input type="radio" id="Gender" name="Hobbies" value="Male"> Male
+        <input type="radio" id="Gender" name="Hobbies" value="Female"> Female
+        <input type="radio" id="Gender" name="Hobbies" value="Other"> Other <br>
+        <label for = "Hobbies">Hobbies:</label> <br>
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Reading"> Reading
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Sport"> Sports
+        <input type="checkbox" id="Hobbies" name="Hobbies" value="Music"> Music <br>
+        <label for ="Country">Country:</label>
+        <select id="Country" name="Country">
+            <option value="Cambodia">Cambodia</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+        </select> <br>
+        <label for = "Upload Profile Picture">Upload Profile Picture:</label>
+        <input type="file" id="Upload Profile Picture" name="Upload Profile Picture"> <br>
+        <input type ="button" value ="Register">
+        </form>
+</body>
+</html>
